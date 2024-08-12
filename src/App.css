@@ -1,0 +1,101 @@
+.App{
+  position: relative;
+}
+.submit{
+  background-color: rgb(86, 86, 214);
+  color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+.form-contact input ,.form-contact textarea{
+  border: 1px solid rgb(212, 211, 211); 
+  border-radius: 5px;
+  outline: 0;
+}
+.form-contact button{
+  background-color: rgb(244, 174, 210);
+  border: 1px solid rgb(181, 177, 177);
+  border-radius: 5px;
+}
+.form-contact button:focus{
+  background-color: rgb(241, 238, 238);
+  transform: scale(0.9,0.9);
+}
+.about{
+  overflow: hidden;
+}
+.contact{
+  height: 100vh;
+}
+.profile-data{
+  color: rgb(126, 123, 123);
+  font-size: 1rem;
+}
+.update-button{
+  background-color: rgb(78, 78, 246);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.check-total{
+  background-color: rgb(170, 4, 4);
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+
+.check input{
+  border: 1px solid rgb(199, 195, 195);
+  border-radius: 5px;
+  outline: 0;
+}
+.login{
+  margin-bottom: 10%;
+}
+
+.details{
+  height: 80vh;
+}
+.details-img{
+  width: 50%;
+}
+.fav{
+height: 100vh;
+ overflow: hidden;
+}
+.mess{
+  position: fixed;
+  top: 12%;
+  right: 1%;
+  z-index: 10;
+  border: 1px solid rgb(2, 187, 107);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  animation: alert 5s ;
+
+  
+}
+@keyframes alert {
+  0%{
+    opacity: 1;
+    right: -1%;
+  }
+  50%{
+    opacity: 1;
+    right: 2%;
+  }
+  100%{
+    opacity: 0;
+    right: -1%;
+  }
+
+
+}
+
+@media (max-width:768px) {
+.about-img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+}

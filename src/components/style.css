@@ -1,0 +1,272 @@
+
+.fav-iqon{
+    position: relative;
+}
+
+.hero{
+    background-image: url(/public/download\ \(2\)\ -\ Copy.jpeg);
+    height: 500px;
+    position: relative;
+}
+.hero-overlay{
+    background-color: rgba(0, 0, 0, 0.288);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-52%);
+    text-align: center;
+    color: white;
+   
+}
+.hero-btn{
+    background-color: rgb(36, 36, 254);
+    border: 1px solid rgb(209, 206, 206);
+    color: white;
+    border-radius: 5px;
+}
+.timer{
+    background-color: rgb(164, 4, 4);
+    border-radius: 5px;
+    width: 40%;
+}
+.sale{
+    background-color: rgb(239, 235, 235);
+    border-radius: 2px;
+   font-size: 1.2em;
+   
+    font-weight: bold;
+}
+.title{
+    color:rgb(19, 3, 105);
+    text-align: center;
+}
+.search-btn{
+    background-color: rgb(229, 228, 228);
+    border: 0;
+    border-radius: 5px;
+    
+}
+.products{
+    border: 1px solid #e4e4e4;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+.product-jewel{
+    border: 1px solid #e4e4e4;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+.products-item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+    align-items: center;
+    
+}
+.product-img{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-img img{
+    max-height: 160px;
+}
+.product-img img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.products-btn{
+    position: absolute;
+    top: 0%;
+    right:  -7%;
+   text-align: center;
+    color: white;
+    border: 0;
+  visibility: hidden;
+
+  opacity: 0;
+}
+.products-btn button ,.products-btn a{
+    border: 0;
+    padding: 3px;
+   
+   width: 40px;
+    background-color: rgb(127, 102, 251);
+    color: rgb(255, 253, 253);
+    
+    display: block;
+}
+.products-item:hover .products-btn{
+visibility: visible;
+opacity: 1;
+transition: 0.5s;
+right: 0.5%;
+}
+.product-title{
+    font-size: 1rem;
+    color: black;
+    text-decoration:none;
+}
+
+.arrow{
+    font-size: 1.3rem;
+}
+.cart-p-img{
+    width: 80%;
+}
+.cart-title{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+.cart-title:hover{
+    text-decoration: underline;
+}
+#offcanvasRight{
+    width: 35%;
+} 
+.close{
+    font-size: 1rem;
+}
+.close:hover{
+    color: red;
+    cursor: pointer;
+}
+.item-details{
+    font-size: 0.6rem;
+}
+.minus{
+ color: red;
+ font-weight: bold; 
+ font-size: 0.8rem;
+ cursor: pointer;
+}
+.amount{
+    font-size: 0.8rem; 
+}
+.plus{
+    color: green;
+ font-weight: bold; 
+ font-size: 0.8rem;
+ cursor: pointer; 
+}
+.cart-total{
+   
+    text-align: center;
+}
+.sidebar-bottom{
+    font-weight: bold;
+}
+.clear-cart{
+  cursor: pointer;
+ color: rgb(178, 4, 4);
+}
+.cart-iqon{
+    position: relative;
+}
+.cart-length{
+    position: absolute;
+    top: -12%;
+    right: -1%;
+   color: rgb(220, 2, 114);
+   border: 2px solid rgb(227, 222, 222);
+   width: 20px;
+   height: 20px;
+   display: flex;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+}
+.cart{
+    position: absolute;
+    top: 1%;
+    right: 11%;
+}
+.Login{
+width: 90px;
+border-radius: 5px;
+border: 0;
+background-color: rgb(244, 174, 210);
+
+}
+
+.header-iqon{
+    background-color: rgb(244, 174, 210);
+    padding: 0.1rem 0.3rem;
+
+}
+
+
+.profile{
+    font-size: 1.4rem;
+    color: rgb(45, 45, 45);
+    
+    cursor: pointer;
+}
+.cart-button{
+    background-color: rgb(156, 1, 1);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
+.headder-iqons{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    
+}
+@media (max-width:1024px) {
+    #offcanvasRight{
+        width: 65%;
+    }  
+    .cart-title{
+        font-size: 0.8rem;
+    } 
+    .cart{
+        right: 20%;
+    }
+}
+.footer{
+    background-color: rgb(251, 219, 236);
+   
+
+  
+}
+.footer-links{
+    text-decoration: none;
+}
+.copy{
+    border-top: 1px solid rgb(161, 156, 156);
+}
+@media (max-width:500px) {
+    #offcanvasRight{
+        width: 80%;
+    }  
+    .cart-title{
+        font-size: 0.6rem;
+    } 
+    .cart{
+        right: 26%;
+    }
+    .timer{
+        width: 90%;
+    }
+    .footer{
+        font-size: 0.8rem;
+    }
+}
