@@ -12,7 +12,7 @@ export default function Home() {
 const {alert,message,message2,alert2}=useContext(CartContext)
 
   const filteredProducts = products.filter(item => {
-    return item.category === "men's clothing" || item.category === "women's clothing";
+    return item.category === "women's clothing" || item.category ==="men's clothing" ;
   });
 
   const sliderItems = products.filter(item => {
