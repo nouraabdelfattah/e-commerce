@@ -9,7 +9,7 @@ window.alert("Thank you for shopping .See you soon")
     }
   return (
     <div className='chec-parent'>
-    <div className='container row p-5 justify-content-evenly '>
+    <div className='container row p-5 justify-content-center mb-3 '>
         <h2 className=' border-bottom mb-5 pb-3'>See you next time!</h2>
      <div className='col-md-6 border  p-3 check '>
      <label>Name:</label>
