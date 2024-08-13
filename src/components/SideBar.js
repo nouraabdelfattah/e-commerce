@@ -8,9 +8,7 @@ import { CartContext } from '../context/CartContext';
 
 export default function SideBar() {
   const { cart, clearCart,total } = useContext(CartContext);
-if(!cart){
-  return<div>No items in the cart</div>
-}
+
   return (
     <div>
       <button className="btn cart-iqon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
