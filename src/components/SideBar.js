@@ -40,9 +40,9 @@ export default function SideBar() {
                 <FiTrash2 />
               </div>
             </div>
-          {total&& <div className='text-center mt-5'>
+          {total?<div className='text-center mt-5'>
           <Link to={"/check"}> <button className='w-75  p-1 mt-3 cart-button'>Chekout</button></Link>
-           </div>}
+           </div>:""}
           </div>
 
         </div>
