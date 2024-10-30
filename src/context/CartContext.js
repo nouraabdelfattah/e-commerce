@@ -110,7 +110,7 @@ const removeFromFav = (id) => {
 
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart, increaseAmount,decreseAmount,addToFav,removeFromFav,fav,alert,message,message2,alert2 ,total}}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart, increaseAmount,decreseAmount,addToFav,removeFromFav,fav,alert,message,message2,alert2 ,total,setCart}}>
       {children}
     </CartContext.Provider>
   );
