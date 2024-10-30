@@ -3,9 +3,10 @@ import CartItem from "../components/CartItem";
 import { CartContext } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 export default function Checkout() {
-    const { cart,total } = useContext(CartContext);
+    const { cart,total,setCart } = useContext(CartContext);
     const handleConfirm=()=>{
 window.alert("Thank you for shopping .See you soon")
+        setCart([])
     }
   return (
     <div className='chec-parent'>
