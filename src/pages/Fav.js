@@ -10,7 +10,7 @@ export default function Fav() {
 
   return (
     <div className='fav row  contianer mb-5 p-5'>
-      <h2 className='text-center '>Favorites</h2>
+      <h2 className='text-center '>Favourites</h2>
      
       {fav && fav.length > 0 ? (
         fav.map((item) => (
